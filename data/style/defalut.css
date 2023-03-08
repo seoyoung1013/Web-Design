@@ -1,4 +1,25 @@
 body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
     background-image: url("../img/치킨.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.logo{
+    margin-top: 50px;
+}
+
+.imsi-sub-frame{
+    width: 1100px;
+    height: 800px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
