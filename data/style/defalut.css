@@ -1,3 +1,36 @@
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+.imsi-title{
+    color:#004c8a;
+    font-weight: 700;
+    font-size: 3.2em;
+    letter-spacing: -0.1em;
+}
+
+.imsi-category{
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: -0.1em;
+    margin: 0;
+}
+
+.imsi-text{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: -0.1em;
+}
+
+.point{
+    font-weight: 900;
+    color: #003c8a;
+}
+
+p{
+    line-height: 10px;
+}
+
 body{
     text-align: center;
     padding: 0;
@@ -15,6 +48,7 @@ body{
 }
 
 .imsi-sub-frame{
+    position: relative;
     width: 1100px;
     height: 800px;
     background-color: rgb(255, 255, 255, 0.7);
